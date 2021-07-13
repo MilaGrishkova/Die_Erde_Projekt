@@ -3,6 +3,7 @@
 Mein Projekt ist
 
 einerseits
+
 1) ein Versuch, die Gegenwart der Sphäre zu hypostasieren.
 Die Sphäre, die am scheitern ist, die ihre Ganzheit verliert.
 Der Kosmos ist für uns kein Ganzes mehr, weil wir Löcher darin gefunden haben.
@@ -12,7 +13,8 @@ Wir haben nicht mehr diese gemütliche Welt unter deren Kuppel wir uns zuhause f
 https://de.wikipedia.org/wiki/Sphären_(Sloterdijk) 
 
 
-Andererseits,
+Andererseits
+
 2) es ist ein Versuch, die Gegenwart der Sphäre zu hypostasieren, die zusammenbricht, aber erneut scheitert: Sie hört nicht auf zu existieren.
 Die Sphäre wird zu einem Simulacrum, einer leeren Sphäre, die immer mehr neue Sphären hervorbringt.
 Die Sphäre ist der Mittelpunkt, 
