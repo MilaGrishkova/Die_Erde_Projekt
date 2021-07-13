@@ -13,6 +13,7 @@ Wir haben nicht mehr diese gemütliche Welt unter deren Kuppel, da wo wir uns im
 
 
 Andererseits,
+
 2) es ist ein Versuch, die Gegenwart der Sphäre zu hypostasieren, die zusammenbricht, aber erneut gescheitert: sie hört nicht auf zu existieren.
 Die Sphäre wird zu einem Simulacrum, einer leeren Sphäre, die immer mehr neue Sphären hervorbringt.
 Die Sphäre ist zu Null, 
