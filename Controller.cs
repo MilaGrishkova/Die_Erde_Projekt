@@ -38,7 +38,7 @@ public class Controller : MonoBehaviour
                       Target.GetComponent<AudioSource>().Play();
                       Invoke("AudioSourceDestr", 10f);
                }
-         }
+        }
 
    /* void Update()
         {
