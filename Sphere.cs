@@ -24,7 +24,7 @@ public class Sphere: MonoBehaviour
             if (Physics.Raycast(ray, out Hit))
              {
                 var selection = Hit.transform;
-                if (selection.CompareTag("Tag"))
+                if (selection.CompareTag("Sphere2"))
                  {
                      myAudioSource.clip = aClips[Random.Range(0, aClips.Length)];
                      myAudioSource.PlayOneShot (myAudioSource.clip);
