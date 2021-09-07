@@ -19,15 +19,15 @@ public class Sphere: MonoBehaviour
     { 
         if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)        
         {   
-         Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
-         RaycastHit Hit;
-         if (Physics.Raycast(ray, out Hit))
+            Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+            RaycastHit Hit;
+            if (Physics.Raycast(ray, out Hit))
              {
-              var selection = Hit.transform;
-              if (selection.CompareTag("Tag"))
+                var selection = Hit.transform;
+                if (selection.CompareTag("Tag"))
                  {
-                 myAudioSource.clip = aClips[Random.Range(0, aClips.Length)];
-                 myAudioSource.PlayOneShot (myAudioSource.clip);
+                     myAudioSource.clip = aClips[Random.Range(0, aClips.Length)];
+                     myAudioSource.PlayOneShot (myAudioSource.clip);
                  }    
              }
          } 
@@ -126,17 +126,17 @@ public class Sphere: MonoBehaviour
 /*
     void OnMouseOver()
     {
-     if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0))
         {
-         myAudioSource.clip = aClips[Random.Range(0, aClips.Length)];
-         myAudioSource.PlayOneShot (myAudioSource.clip);
+             myAudioSource.clip = aClips[Random.Range(0, aClips.Length)];
+             myAudioSource.PlayOneShot (myAudioSource.clip);
         }
         
     }
 
     void OnMouseExit()
       {  
-       myAudioSource.Stop();
+         myAudioSource.Stop();
        } */
 
     
