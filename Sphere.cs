@@ -37,8 +37,7 @@ public class Sphere: MonoBehaviour
    
     private List<GameObject> HalfCircleFormation(int numberOfPoints, int radius)
     {
-        // Reference to the numberOfPoints to spawn minus 1.
-        int pieces = numberOfPoints - 1;
+        int pieces = numberOfPoints;
 
         // Reference to the list of spheres that will be created for the half circle.
         List<GameObject> spheres = new List<GameObject>();
