@@ -23,7 +23,7 @@ public class Audio : MonoBehaviour
             {
                 Debug.Log("if1");
                 var selection = Hit.transform;
-                if (selection.CompareTag("Tag"))
+                if (selection.CompareTag("Sphere1"))
                 {
                     myAudioSource.clip = aClips[Random.Range(0, aClips.Length)];
                     myAudioSource.PlayOneShot (myAudioSource.clip);
