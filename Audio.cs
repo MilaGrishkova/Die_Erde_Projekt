@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Audio : MonoBehaviour
 {
-
     public AudioClip[] aClips;
     public AudioSource myAudioSource;
 
@@ -13,7 +12,7 @@ public class Audio : MonoBehaviour
         myAudioSource = GetComponent<AudioSource>();
     }
     
- void Update ()
+     void Update ()
 
     {
         if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)
@@ -22,7 +21,6 @@ public class Audio : MonoBehaviour
             Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
             RaycastHit Hit;
             if (Physics.Raycast(ray, out Hit))
-
             {
             Debug.Log("if1");
             var selection = Hit.transform;
@@ -32,11 +30,9 @@ public class Audio : MonoBehaviour
                 myAudioSource.PlayOneShot (myAudioSource.clip);
                 Debug.Log("if2");
                 }
-            
             }
         }
     }
-    
 }
 /*
     void OnMouseOver()
