@@ -29,7 +29,7 @@ public class Controller : MonoBehaviour
               {
                Debug.Log("if1");
                var selection = Hit.transform;
-               if (selection.CompareTag("Tag1"))
+               if (selection.CompareTag("Sphere1"))
                   {
                       Destroy(Sphere1);
                       Soundeffector.PlayBoomSound();
