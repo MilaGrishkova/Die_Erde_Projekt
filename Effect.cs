@@ -20,7 +20,7 @@ public class Effect : MonoBehaviour
             {
                 Debug.Log("if1");
                 var selection = Hit.transform;
-                if (selection.CompareTag("Tag1")) 
+                if (selection.CompareTag("Sphere1")) 
                 {
                     Instantiate(EffectBoom1, Vector3.zero, Quaternion.identity);
                     Instantiate(EffectBoom2, Vector3.zero, Quaternion.identity);
