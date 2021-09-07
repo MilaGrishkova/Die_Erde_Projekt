@@ -9,12 +9,12 @@ public class Controller : MonoBehaviour
     public GameObject ARCamera;
     public GameObject Target;
     public soundeffector Soundeffector;
-    public AudioSource MyAudioSource;
+    public AudioSource myAudioSource;
 
     void Start()
     {
         Sphere2.gameObject.SetActive(false);
-        MyAudioSource = GetComponent<AudioSource>();
+        myAudioSource = GetComponent<AudioSource>();
     }
 
     void Update ()
