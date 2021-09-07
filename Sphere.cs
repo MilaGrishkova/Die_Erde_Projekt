@@ -3,43 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Sphere: MonoBehaviour
-{
-  
+{ 
     public AudioClip[] aClips;
     public AudioSource myAudioSource;
     public GameObject Sphere3;
   
-     void Start()
+    void Start()
     {
         myAudioSource = GetComponent<AudioSource>();
         this.SphereFormation(30, 1, 30);
     }
 
 
-   void Update ()
-
+    void Update ()
     { 
         if (Input.touchCount > 0 && Input.touches[0].phase == TouchPhase.Began)        
-        {
-            
-        Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
-            RaycastHit Hit;
-            if (Physics.Raycast(ray, out Hit))
-
-        {
-            var selection = Hit.transform;
-            if (selection.CompareTag("Tag"))
-            {
-               
-                myAudioSource.clip = aClips[Random.Range(0, aClips.Length)];
-                myAudioSource.PlayOneShot (myAudioSource.clip);
-            }
-       
-          
-
-        }
-        }
-    }
+        {   
+         Ray ray = Camera.main.ScreenPointToRay(Input.GetTouch(0).position);
+         RaycastHit Hit;
+         if (Physics.Raycast(ray, out Hit))
+             {
+              var selection = Hit.transform;
+              if (selection.CompareTag("Tag"))
+                 {
+                 myAudioSource.clip = aClips[Random.Range(0, aClips.Length)];
+                 myAudioSource.PlayOneShot (myAudioSource.clip);
+                 }    
+             }
+         } 
+     }
 
     //https://www.youtube.com/watch?v=te024cfBy8k
    
@@ -127,8 +119,7 @@ public class Sphere: MonoBehaviour
                 instance.transform.SetParent(sphereContainer.transform);
             }
         }
-    }
-    
+    }    
 }
     // Update is called once per frame
   
@@ -137,18 +128,15 @@ public class Sphere: MonoBehaviour
     {
      if (Input.GetMouseButtonDown(0))
         {
-          //  myAudioSource.clip = aClips[0];
-          //  myAudioSource.Play();
-        
-          myAudioSource.clip = aClips[Random.Range(0, aClips.Length)];
-          myAudioSource.PlayOneShot (myAudioSource.clip);
+         myAudioSource.clip = aClips[Random.Range(0, aClips.Length)];
+         myAudioSource.PlayOneShot (myAudioSource.clip);
         }
         
     }
 
     void OnMouseExit()
-        {  
-        myAudioSource.Stop();
-        } */
+      {  
+       myAudioSource.Stop();
+       } */
 
     
