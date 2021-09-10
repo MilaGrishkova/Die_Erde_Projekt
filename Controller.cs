@@ -38,19 +38,20 @@ public class Controller : MonoBehaviour
                     Invoke("AudioSourceDestr", 10f);
                 }
             }
-
-            /* void Update()
-                 {
-                      if(Input.GetKey(KeyCode.Space))
-                      {
-                        ARCamera.GetComponent.<soundeffector>().enabled = false;
-                      }
-                 }*/
         }
+    }
+/*
+    void Update()
+        {
+            if(Input.GetKey(KeyCode.Space))
+                {
+                    ARCamera.GetComponent.<soundeffector>().enabled = false;
+                }       
+        }
+*/
 
         void AudioSourceDestr()
         {
             Destroy(myAudioSource);
         }
-    }
 }
