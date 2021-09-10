@@ -8,7 +8,7 @@ public class Controller : MonoBehaviour
     public GameObject Sphere2;
     public GameObject ARCamera;
     public GameObject Target;
-    public soundeffector soundeffector;
+    public Soundeffector soundeffector;
     public AudioSource myAudioSource;
 
     void Start()
