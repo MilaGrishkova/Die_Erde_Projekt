@@ -65,7 +65,7 @@ public class Sphere: MonoBehaviour
             // Set the instantiated gameObjects position to a new Vector3 with the new variables.
             instance.transform.position = new Vector3(X, Y, 0);
             // Set the gameObjects color to green.
-           // instance.GetComponent<MeshRenderer>().material.color = Color.green;
+            // instance.GetComponent<MeshRenderer>().material.color = Color.green;
             // Set the instantiated object as a child of the container gameObject.
             instance.transform.SetParent(container.transform);
             // Add the instance to the list.
@@ -137,5 +137,3 @@ public class Sphere: MonoBehaviour
       {  
          myAudioSource.Stop();
        } */
-
-    
