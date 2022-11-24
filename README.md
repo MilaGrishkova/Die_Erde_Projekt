@@ -1,6 +1,6 @@
-# Die Erde
+# Die Erde (mit Unity & Vuforia)
 
-Mein Projekt ist 
+Mein Projekt ist ([YouTube](https://www.youtube.com/watch?v=H5vdiQGo92U))
 
 einerseits
 ein Versuch, die Gegenwart der Sphäre zu hypostasieren. Die [Sphäre](https://de.wikipedia.org/wiki/Sphären_(Sloterdijk)), die am scheitern ist, die ihre Ganzheit verliert. Der Kosmos ist für uns kein Ganzes mehr, weil wir Löcher darin gefunden haben. Die Erde ist nicht das Zentrum vom Universum. Gott ist tot. Wir haben nicht mehr diese gemütliche Welt unter deren Kuppel wir uns zuhause fühlen.
