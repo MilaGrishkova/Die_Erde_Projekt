@@ -1,4 +1,4 @@
-# Die Erde (mit Unity & Vuforia)
+# Die Erde (Unity & Vuforia)
 
 Mein Projekt ist ([YouTube1](https://www.youtube.com/watch?v=H5vdiQGo92U), [YouTube2](https://www.youtube.com/watch?v=R-V_-KbjHTw))
 
