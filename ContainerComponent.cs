@@ -23,5 +23,4 @@ public class ContainerComponent : MonoBehaviour
         this.transform.Rotate(new Vector3(X, Y, Z) * Time.deltaTime * speed);
     }
 }
-
  //https://www.youtube.com/watch?v=te024cfBy8k
